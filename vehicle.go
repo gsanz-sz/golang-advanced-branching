@@ -111,6 +111,8 @@ func generateRating() {
 				vehRating = 5.0
 				vehResult.feedbackTotal++
 			}
+			for _, word := range text {
+			}
 		}
 	}
 }
