@@ -9,7 +9,6 @@ import (
 )
 
 type vehicle interface {
-	getRating() int
 }
 
 type car struct {
