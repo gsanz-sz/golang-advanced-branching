@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 )
 
 type vehicle interface {
@@ -106,6 +107,9 @@ func generateRating() {
 		var vehResult feedbackResult
 		var vehRating rating
 		for _, msg := range v.Feedback {
+			if text := strings.Split(msg, " "); strings.Split(msg, " ") {
+
+			}
 		}
 	}
 }
