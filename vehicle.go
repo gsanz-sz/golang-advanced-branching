@@ -135,3 +135,7 @@ func generateRating() {
 	}
 	vehicleResult[v.Name] = vehResult
 }
+
+func showRating(model string) {
+
+}
