@@ -83,7 +83,7 @@ func main() {
 	// Generate ratings for the different vehicles
 	generateRating()
 	// Print ratings for the different vehicles
-	for _, v := range inventory {
+	for _, veh := range inventory {
 	}
 }
 
