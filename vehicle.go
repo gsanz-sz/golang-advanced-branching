@@ -107,7 +107,7 @@ func generateRating() {
 		var vehResult feedbackResult
 		var vehRating rating
 		for _, msg := range v.Feedback {
-			if text := strings.Split(msg, " "); strings.Split(msg, " ") {
+			if text := strings.Split(msg, " "); len(text) >= 5 {
 
 			}
 		}
