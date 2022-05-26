@@ -145,4 +145,7 @@ func showRating(model string) {
 			ratingFound = true
 		}
 	}
+	if !ratingFound {
+		fmt.Printf("No rating for this vehicle")
+	}
 }
